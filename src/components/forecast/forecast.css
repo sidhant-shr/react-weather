@@ -1,0 +1,75 @@
+.title{
+    font-size: 23px;
+    font-weight: 500;
+
+}
+
+.daily-item{
+    background-color:rgb(69, 63, 63) ;
+    border-radius: 15px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 20px;
+
+
+}
+.icon-small{
+    width: 50px;
+
+}
+
+.day{
+    color: rgb(238, 232, 232);
+    flex: 1 1;
+    font-weight: 400;
+    margin-left: 15px;
+
+}
+
+.description{
+    color: #c4c3c3;
+    flex: 1 1;
+    margin-right: 15px;
+    text-align: right;
+
+}
+
+.min-max{
+    color: #c4c3c3;
+    
+}
+
+.daily-details-grid{
+    grid-row-gap: 0;
+    grid-column-gap: 15px;
+    column-gap: 15px;
+    row-gap: 0;
+    display: grid;
+    flex: 1 1;
+    grid-template-columns: auto auto;
+    padding: 5px 15px;
+}
+
+.daily-details-grid-item{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.daily-details-grid-item label:first-child{
+    color: black;
+
+
+
+}
+.daily-details-grid-item label:last-child{
+    color: #504f4f;
+
+}
+
+
